@@ -1,4 +1,4 @@
-<img width="717" height="380" alt="image" src="https://github.com/user-attachments/assets/3e517cc1-5d3c-414c-9f42-6915ed891cdb" /># 🚗 Uber Ride Analytics — End-to-End Data Analytics Project
+# 🚗 Uber Ride Analytics — End-to-End Data Analytics Project
 
 An end-to-end Data Analytics project analyzing over **40,000+ ride booking records** for Uber in July 2024. This project covers data cleaning in Excel, relational querying and view creation in MySQL, and interactive dashboard design using Power BI.
 

@@ -93,7 +93,7 @@ SELECT Booking_ID, Incomplete_Rides_Reason
 FROM bookings WHERE Incomplete_Rides = 'Yes';
 ```
 
-##Key DAX Measures Used in Power BI
+## Key DAX Measures Used in Power BI
 
 ```sql // Total Bookings
 TotalBookings = COUNTROWS(july)

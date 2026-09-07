@@ -108,6 +108,7 @@ CALCULATE(
 CanceledPercentage = 
 DIVIDE([CanceledBookings], [TotalBookings], 0) * 100
 
+
 Dashboard Structure (Power BI)
 
 The dashboard contains 5 dedicated analytical view pages:
@@ -116,4 +117,4 @@ Overall View: High-level KPIs, Ride Volume over time, and Booking Status pie cha
 Vehicle Type View: Vehicle performance comparison, average distance, and booking values.
 Revenue View: Payment method revenue breakdown and top customer spending.
 Cancellation View: Deep dive into customer and driver cancellation reasons.
-Ratings View: Comparative rating matrix across customer and driver dimensions. 
+Ratings View: Comparative rating matrix across customer and driver dimensions.

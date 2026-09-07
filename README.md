@@ -114,8 +114,8 @@ DIVIDE([CanceledBookings], [TotalBookings], 0)
 
 The dashboard contains 5 dedicated analytical view pages:
 
-Overall View: High-level KPIs, Ride Volume over time, and Booking Status pie chart breakdown.
-Vehicle Type View: Vehicle performance comparison, average distance, and booking values.
-Revenue View: Payment method revenue breakdown and top customer spending.
-Cancellation View: Deep dive into customer and driver cancellation reasons.
-Ratings View: Comparative rating matrix across customer and driver dimensions.
+* **Overall View:** High-level KPIs, Ride Volume over time, and Booking Status pie chart breakdown.
+* **Vehicle Type View:** Vehicle performance comparison, average distance, and booking values.
+* **Revenue View:** Payment method revenue breakdown and top customer spending.
+* **Cancellation View:** Deep dive into customer and driver cancellation reasons.
+* **Ratings View:** Comparative rating matrix across customer and driver dimensions.

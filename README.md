@@ -107,7 +107,7 @@ CALCULATE(
 
 // Cancellation Percentage Rate
 CanceledPercentage = 
-DIVIDE([CanceledBookings], [TotalBookings], 0) * 100
+DIVIDE([CanceledBookings], [TotalBookings], 0)
 ```
 
 ## Dashboard Structure (Power BI)

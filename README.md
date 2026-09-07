@@ -90,11 +90,11 @@ FROM bookings WHERE Booking_Status = 'Success';
 -- 10. List all incomplete rides along with the reason
 CREATE VIEW Incomplete_Rides_Reason AS
 SELECT Booking_ID, Incomplete_Rides_Reason
-FROM bookings WHERE Incomplete_Rides = 'Yes';
+FROM bookings WHERE Incomplete_Rides = 'Yes'; ```
 
-Key DAX Measures Used in Power BI
+##Key DAX Measures Used in Power BI
 
-// Total Bookings
+```sql // Total Bookings
 TotalBookings = COUNTROWS(july)
 
 // Total Canceled Bookings
@@ -106,10 +106,10 @@ CALCULATE(
 
 // Cancellation Percentage Rate
 CanceledPercentage = 
-DIVIDE([CanceledBookings], [TotalBookings], 0) * 100
+DIVIDE([CanceledBookings], [TotalBookings], 0) * 100 ```
 
 
-Dashboard Structure (Power BI)
+## Dashboard Structure (Power BI)
 
 The dashboard contains 5 dedicated analytical view pages:
 
